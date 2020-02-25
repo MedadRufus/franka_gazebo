@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda">
 
-	<gazebo reference="${ns}_hand"/>
-	<gazebo reference="${ns}_leftfinger"/>
-	<gazebo reference="${ns}_rightfinger"/>
+	<gazebo reference="${ns}_hand">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${ns}_leftfinger">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${ns}_rightfinger">
+		<material>Gazebo/Grey</material>
+	</gazebo>
 
 	<transmission name="${ns}_finger_joint1_trans">
     <type>transmission_interface/SimpleTransmission</type>

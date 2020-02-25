@@ -6,15 +6,33 @@
     </plugin>
   </gazebo>
   
-	<gazebo reference="${arm_id}_link0"/>
-	<gazebo reference="${arm_id}_link1"/>
-	<gazebo reference="${arm_id}_link2"/>
-	<gazebo reference="${arm_id}_link3"/>
-	<gazebo reference="${arm_id}_link4"/>
-	<gazebo reference="${arm_id}_link5"/>
-	<gazebo reference="${arm_id}_link6"/>
-	<gazebo reference="${arm_id}_link7"/>
-	<gazebo reference="${arm_id}_link8"/>
+	<gazebo reference="${arm_id}_link0">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link1">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link2">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link3">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link4">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link5">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link6">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link7">
+		<material>Gazebo/Grey</material>
+	</gazebo>
+	<gazebo reference="${arm_id}_link8">
+		<material>Gazebo/Grey</material>
+	</gazebo>
 
 	 <transmission name="${arm_id}_joint1_trans">
     <type>transmission_interface/SimpleTransmission</type>
